@@ -1,0 +1,14 @@
+{
+  "name": "ejemplo1",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d compilado"
+  },
+  "author": "Jorge C. Cuadra F.",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}

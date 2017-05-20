@@ -1,0 +1,33 @@
+{
+  "name": "jaibascript",
+  "version": "1.0.0",
+  "description": "JavaScript en español",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasco3/JaibaScript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Jorge C. Cuadra F.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasco3/JaibaScript/issues"
+  },
+  "homepage": "https://github.com/vasco3/JaibaScript#readme",
+  "dependencies": {
+    "babel-generator": "^6.24.1",
+    "babel-template": "^6.24.1",
+    "babel-traverse": "^6.24.1",
+    "babel-types": "^6.24.1",
+    "babylon": "^6.17.1"
+  },
+  "devDependencies": {
+    "babel-plugin-tester": "^2.0.0",
+    "jest": "^20.0.3"
+  }
+}

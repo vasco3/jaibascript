@@ -22,6 +22,20 @@ lista.filtrar(num => num > 2);
 // lista.filter(num => num > 2);
 ````
 
+## Objetos Estandares traducidos
+
+> JaibaScript tiene traducidos los siguientos Objetos estandares con sus respectivos metodos y propiedades
+
+
+Español | Ingles
+------- | ------
+Fecha | Date
+Lista | Array
+Numero | Number
+Texto | String
+
+
+
 ## Contribuidores
 
 - Jorge C. Cuadra F.

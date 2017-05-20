@@ -34,11 +34,19 @@ Lista | Array
 Numero | Number
 Texto | String
 
+## Referencias
 
+- https://github.com/jacobp100/babel-plugin-swift-blocks
+- https://medium.com/@jacobp100/adding-custom-syntax-to-babel-e1a1315c6a90
+- [babel types](https://github.com/babel/babel/blob/master/packages/babel-types/src/definitions/core.js)
+- [Developer Mozilla](https://developer.mozilla.org)
+- [AST Explorer](http://astexplorer.net/)
+- [Babel Plugin Handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-babel-types)
 
 ## Contribuidores
 
 - Jorge C. Cuadra F.
+
 
 ## Licencia
 

@@ -74,53 +74,57 @@ Español | Inglés
 `aTiempoEnTexto` | `toTimeString`
 `aTextoUTC` | `toUTCString`
 
-  /*********
-   * Lista
-   * original: Array
-   *********/
-  // metodos
-  adjuntar: 'push',
-  aFuente: 'toSource',
-  algunos: 'some',
-  cadaUno: 'every',
-  claves: 'keys',
-  copiarDentro: 'copyWithin',
-  cortarCopia: 'slice',
-  cortarOriginal: 'splice',
-  de: 'of',
-  desde: 'from',
-  destronar: 'shift',
-  encontrar: 'find',
-  encontrarIndice: 'findIndex',
-  entradas: 'entries',
-  esLista: 'isArray',
-  expulsar: 'pop',
-  filtrar: 'filter',
-  juntar: 'join',
-  llenar: 'fill',
-  mapear: 'map',
-  ordenar: 'sort',
-  paraCadaUno: 'forEach',
-  preadjuntar: 'unshift',
-  reducir: 'reduce',
-  reducirDerecha: 'reduceRight',
-  revertir: 'reverse',
-  valores: 'values',
 
-  /********
-   * Numero
-   * original: Number
-   ********/
+## Lista
+> original: `Array`
 
-  // propiedades
-  AntiNumero: 'NaN',
-  ENTERO_SEGURO_MAXIMO: 'MAX_SAFE_INTEGER',
-  ENTERO_SEGURO_MINIMO: 'MIN_SAFE_INTEGER',
-  EPSILON: 'EPSILON',
-  INFINITO_NEGATIVO: 'NEGATIVE_INFINITY',
-  INFINITO_POSITIVO: 'POSITIVE_INFINITY',
-  VALOR_MAXIMO: 'MAX_VALUE',
-  VALOR_MINIMO: 'MIN_VALUE',
+### metodos
+
+Español | Inglés
+-- | --
+adjuntar | push
+aFuente | toSource
+algunos | some
+cadaUno | every
+claves | keys
+copiarDentro | copyWithin
+cortarCopia | slice
+cortarOriginal | splice
+de | of
+desde | from
+destronar | shift
+encontrar | find
+encontrarIndice | findIndex
+entradas | entries
+esLista | isArray
+expulsar | pop
+filtrar | filter
+juntar | join
+llenar | fill
+mapear | map
+ordenar | sort
+paraCadaUno | forEach
+preadjuntar | unshift
+reducir | reduce
+reducirDerecha | reduceRight
+revertir | reverse
+valores | values
+
+## Numero
+> original: `Number`
+
+### propiedades
+
+Español | Inglés
+-- | --
+AntiNumero | NaN
+ENTERO_SEGURO_MAXIMO | MAX_SAFE_INTEGER
+ENTERO_SEGURO_MINIMO | MIN_SAFE_INTEGER
+EPSILON | EPSILON
+INFINITO_NEGATIVO | NEGATIVE_INFINITY
+INFINITO_POSITIVO | POSITIVE_INFINITY
+VALOR_MAXIMO | MAX_VALUE
+VALOR_MINIMO | MIN_VALUE
 
   // metodos
   aExponencial: 'toExponential',

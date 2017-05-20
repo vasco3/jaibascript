@@ -4,7 +4,9 @@
   "description": "JavaScript en español",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "dictionary": "",
+    "test": "jest",
+    "test-watch": "jest --watch"
   },
   "repository": {
     "type": "git",

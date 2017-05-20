@@ -1,52 +1,34 @@
 
-const properties = {
-  adjuntar: 'push',
-  aFuente: 'toSource',
-  algunos: 'some',
-  aTexto: 'toString',
-  aTextoLocal: 'toLocaleString',
-  cadaUno: 'every',
-  claves: 'keys',
-  concatenar: 'concat',
-  copiarDentro: 'copyWithin',
-  cortarCopia: 'slice',
-  cortarOriginal: 'splice',
-  de: 'of',
-  destronar: 'shift',
-  buscar: 'find',
-  buscarIndice: 'findIndex',
-  entradas: 'entries',
-  esLista: 'isArray',
-  expulsar: 'pop',
-  filtrar: 'filter',
-  desde: 'from',
-  incluye: 'includes',
-  indiceDe: 'indexOf',
-  juntar: 'join',
-  llenar: 'fill',
-  longitud: 'length',
-  mapear: 'map',
-  ordenar: 'sort',
-  paraCadaUno: 'forEach',
-  preadjuntar: 'unshift',
-  prototipo: 'prototype',
-  reducir: 'reduce',
-  reducirDerecha: 'reduceRight',
-  revertir: 'reverse',
-  ultimoIndiceDe: 'lastIndexOf',
-  valores: 'values',
-};
+const {
+  ObjetosEstandard,
+  PropiedadesMetodosDeObjetosEstandard
+} = require('./diccionario');
 
 module.exports = function jaibascript({types: t}) {
   return {
     name: 'jaibascript',
     visitor: {
       MemberExpression(path) {
-        const property = properties[path.node.property.name];
+        const objectName = (path.node.object || {}).name || '';
+        const primitiveIdentifier = ObjetosEstandard[objectName];
+
+        if (primitiveIdentifier) {
+          path.node.object = t.identifier(primitiveIdentifier);
+        }
+
+        const property = PropiedadesMetodosDeObjetosEstandard[path.node.property.name];
+
         if (property) {
           path.node.property = t.identifier(property);
         }
-      }
+      },
+      NewExpression(path) {
+        const callee = ObjetosEstandard[path.node.callee.name];
+
+        if (callee) {
+          path.node.callee = t.identifier(callee);
+        }
+      },
     }
   }
 };

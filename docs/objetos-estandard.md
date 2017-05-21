@@ -8,18 +8,19 @@
 
 Español | Inglés
 -- | --
-`longitud` | `length`
-`prototipo` | `prototype`
+longitud | length
+prototipo | prototype
+
 
 ### metodos
 
 Español | Inglés
 -- | --
-`aTexto` | `toString`
-`concatenar` | `concat`
-`incluye` | `includes`
-`indiceDe` | `indexOf`
-`ultimoIndiceDe` | `lastIndexOf`
+aTexto | toString
+concatenar | concat
+incluye | includes
+indiceDe | indexOf
+ultimoIndiceDe | lastIndexOf
 
 
 ## Fecha
@@ -29,51 +30,50 @@ Español | Inglés
 
 Español | Inglés
 -- | --
-`UTC` | `UTC`
-`ahora` | `now`
-`convertir` | `parse`
-`obtenerFecha` | `getDate`
-`obtenerDia` | `getDay`
-`obtenerAnioCompleto` | `getFullYear`
-`obtenerHoras` | `getHours`
-`obtenerMilisegundos` | `getMilliseconds`
-`obtenerMinutos` | `getMinutes`
-`obtenerMes` | `getMonth`
-`obtenerSegundos` | `getSeconds`
-`obtenerTiempo` | `getTime`
-`obtenerDesfaceUsoHorario` | `getTimezoneOffset`
-`obtenerFechaUTC` | `getUTCDate`
-`obtenerDiaUTC` | `getUTCDay`
-`obtenerAnioCompletoUTC` | `getUTCFullYear`
-`obtenerHorasUTC` | `getUTCHours`
-`obtenerMilisegundosUTC` | `getUTCMilliseconds`
-`obtenerMinutosUTC` | `getUTCMinutes`
-`obtenerMesUTC` | `getUTCMonth`
-`obtenerSegundosUTC` | `getUTCSeconds`
-`definirFecha` | `setDate`
-`definirAnioCompleto` | `setFullYear`
-`definirHoras` | `setHours`
-`definirMilisegundos` | `setMilliseconds`
-`definirMinutos` | `setMinutes`
-`definirMes` | `setMonth`
-`definirSegundos` | `setSeconds`
-`definirTiempo` | `setTime`
-`definirFechaUTC` | `setUTCDate`
-`definirAnioCompletoUTC` | `setUTCFullYear`
-`definirHorasUTC` | `setUTCHours`
-`definirMilisegundosUTC` | `setUTCMilliseconds`
-`definirMinutosUTC` | `setUTCMinutes`
-`definirMesUTC` | `setUTCMonth`
-`definirSegundosUTC` | `setUTCSeconds`
-`aFechaEnTexto` | `toDateString`
-`aTextoISO` | `toISOString`
-`aJSON` | `toJSON`
-`aFechaEnTextoLocalizada` | `toLocaleDateString`
-`aFormatoLocalizado` | `toLocaleFormat`
-`aTiempoEnTextoLocalizado` | `toLocaleTimeString`
-`aTiempoEnTexto` | `toTimeString`
-`aTextoUTC` | `toUTCString`
-
+aFechaEnTexto | toDateString
+aFechaEnTextoLocalizada | toLocaleDateString
+aFormatoLocalizado | toLocaleFormat
+ahora | now
+aJSON | toJSON
+aTextoISO | toISOString
+aTextoUTC | toUTCString
+aTiempoEnTexto | toTimeString
+aTiempoEnTextoLocalizado | toLocaleTimeString
+convertir | parse
+definirAnioCompleto | setFullYear
+definirAnioCompletoUTC | setUTCFullYear
+definirFecha | setDate
+definirFechaUTC | setUTCDate
+definirHoras | setHours
+definirHorasUTC | setUTCHours
+definirMes | setMonth
+definirMesUTC | setUTCMonth
+definirMilisegundos | setMilliseconds
+definirMilisegundosUTC | setUTCMilliseconds
+definirMinutos | setMinutes
+definirMinutosUTC | setUTCMinutes
+definirSegundos | setSeconds
+definirSegundosUTC | setUTCSeconds
+definirTiempo | setTime
+obtenerAnioCompleto | getFullYear
+obtenerAnioCompletoUTC | getUTCFullYear
+obtenerDesfaceUsoHorario | getTimezoneOffset
+obtenerDia | getDay
+obtenerDiaUTC | getUTCDay
+obtenerFecha | getDate
+obtenerFechaUTC | getUTCDate
+obtenerHoras | getHours
+obtenerHorasUTC | getUTCHours
+obtenerMes | getMonth
+obtenerMesUTC | getUTCMonth
+obtenerMilisegundos | getMilliseconds
+obtenerMilisegundosUTC | getUTCMilliseconds
+obtenerMinutos | getMinutes
+obtenerMinutosUTC | getUTCMinutes
+obtenerSegundos | getSeconds
+obtenerSegundosUTC | getUTCSeconds
+obtenerTiempo | getTime
+UTC | UTC
 
 ## Lista
 > original: `Array`
@@ -126,7 +126,10 @@ INFINITO_POSITIVO | POSITIVE_INFINITY
 VALOR_MAXIMO | MAX_VALUE
 VALOR_MINIMO | MIN_VALUE
 
-  // metodos
+### metodos
+
+Español | Inglés
+-- | --
   aExponencial: 'toExponential',
   aFraccionario: 'toFixed',
   conPrecision: 'toPrecision',
@@ -137,37 +140,39 @@ VALOR_MINIMO | MIN_VALUE
   esEnteroSeguro: 'isSafeInteger',
   esFinite: 'isFinite',
 
-  /********
-   * Texto
-   ********/
+## Texto
+> original: `String`
 
-  // metodos
-  aMayusculas: 'toUpperCase',
-  aMayusculasLocalizadas: 'toLocaleUpperCase',
-  aMinusculas: 'toLowerCase',
-  aMinusculasLocalizadas: 'toLocaleLowerCase',
-  ancla: 'anchor',
-  buscar: 'search',
-  characterEn: 'charAt',
-  codigoCaracterEn: 'charCodeAt',
-  coditoPuntoEn: 'codePointAt',
-  compararLocal: 'localeCompare',
-  copiarCaracteresPorCantidad: 'substr',
-  copiarCaracteresPorIndice: 'substring',
-  cortar: 'slice',
-  crudo: 'raw',
-  deCodigoCaracter: 'fromCharCode',
-  deCodigoPunto: 'fromCodePoint',
-  empiezaCon: 'startsWith',
-  encontrarExpresionRegular: 'match',
-  enlazar: 'link',
-  normalizar: 'normalize',
-  recortar: 'trim',
-  recortarDerecha: 'trimRight',
-  recortarIzquierda: 'trimLeft',
-  reemplazar: 'replace',
-  repetir: 'repeat',
-  separar: 'split',
-  terminaCon: 'endsWith',
-  valodDe: 'valueOf',
+## metodos
+
+Español | Inglés
+-- | --
+aMayusculas | toUpperCase
+aMayusculasLocalizadas | toLocaleUpperCase
+aMinusculas | toLowerCase
+aMinusculasLocalizadas | toLocaleLowerCase
+ancla | anchor
+buscar | search
+characterEn | charAt
+codigoCaracterEn | charCodeAt
+coditoPuntoEn | codePointAt
+compararLocal | localeCompare
+copiarCaracteresPorCantidad | substr
+copiarCaracteresPorIndice | substring
+cortar | slice
+crudo | raw
+deCodigoCaracter | fromCharCode
+deCodigoPunto | fromCodePoint
+empiezaCon | startsWith
+encontrarExpresionRegular | match
+enlazar | link
+normalizar | normalize
+recortar | trim
+recortarDerecha | trimRight
+recortarIzquierda | trimLeft
+reemplazar | replace
+repetir | repeat
+separar | split
+terminaCon | endsWith
+valodDe | valueOf
 

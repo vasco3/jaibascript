@@ -176,3 +176,5 @@ separar | split
 terminaCon | endsWith
 valodDe | valueOf
 
+
+[inicio](./README.md)

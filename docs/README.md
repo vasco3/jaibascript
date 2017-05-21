@@ -4,13 +4,24 @@
 
 Recrear JavaScript en español. Darle a los usuarios hispanoparlantes la posibilidad de escribir JavaScript usando terminología en su idioma nativo. Esto es con el objetivo de facilitar el aprendizaje de la programación para las personas que no saben inglés.
 
+## Requerimientos
+
+- NodeJS v6+
+- Babel v6+
 
 ## Instalacion
 
-Proximamente con npm
+- `npm install --save-dev jaibascript`
+- agregar a los plugins de babel
 
 
 ## Ejemplos
+
+> JaibaScript compilando a Javascript en tiempo real
+
+![JaibaScript](./jaibascript.gif)
+
+### Traduce Objetos Estandard y sus metodos
 
 ```js
 Numero.esEntero(100);
@@ -24,6 +35,7 @@ Number.isInteger(100);
 
 ### Se puede combinar ingles y español
 
+> Ideal para implementarse poco a poco en un proyecto hecho con JavaScript. Se puede incorporar en pequeñas secciones para ir lo probando.
 ```js
 // Number en ingles, esEntero() en español
 

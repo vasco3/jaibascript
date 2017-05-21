@@ -78,7 +78,9 @@ Texto | String
 ## Contribuidores
 
 - Jorge C. Cuadra F.
-![Jorge Cuadra](./profile.jpeg)
+
+<img src="./jorge-cuadra.png" width="200"/>
+
 
 
 

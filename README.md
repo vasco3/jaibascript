@@ -5,22 +5,31 @@
 
 Recrear JavaScript en español. Darle a los usuarios hispanoparlantes la posibilidad de escribir JavaScript usando terminología en su idioma nativo. Esto es con el objetivo de facilitar el aprendizaje de la programación para las personas que no saben inglés.
 
+## Requerimientos
+
+- NodeJS v6+
+- babel v6+
+
+
 ## Instalacion
 
-git clone
+- `npm install --save jaibascript`
+- Agregar jaibascript a la lista de babel plugins.
 
-Proximamente con npm
 
 ## Uso
 
 Escribe jaibascript y traduce a JavaScript
-```
-var lista = [1,3,4];
+
+```js
+const lista = [1,3,4];
 
 lista.filtrar(num => num > 2);
 
-// lista.filter(num => num > 2);
-````
+// traducido a
+lista.filter(num => num > 2);
+```
+
 
 ## Objetos Estandares traducidos
 
@@ -46,7 +55,6 @@ Texto | String
 ## Contribuidores
 
 - Jorge C. Cuadra F.
-
 
 
 ## Licencia

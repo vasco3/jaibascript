@@ -1,10 +1,9 @@
 {
   "name": "jaibascript",
   "version": "1.0.0",
-  "description": "JavaScript en español",
+  "description": "JavaScript en Español",
   "main": "src/index.js",
   "scripts": {
-    "dictionary": "",
     "test": "jest",
     "test-watch": "jest --watch"
   },

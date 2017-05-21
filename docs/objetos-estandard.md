@@ -177,4 +177,4 @@ terminaCon | endsWith
 valodDe | valueOf
 
 
-[inicio](./README.md)
+[inicio](./index.md)

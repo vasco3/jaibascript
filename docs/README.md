@@ -78,6 +78,8 @@ Texto | String
 ## Contribuidores
 
 - Jorge C. Cuadra F.
+![Jorge Cuadra](./profile.jpeg)
+
 
 
 ## Licencia

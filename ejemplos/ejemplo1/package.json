@@ -9,6 +9,7 @@
   "author": "Jorge C. Cuadra F.",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "jaibascript": "^1.0.0"
   }
 }

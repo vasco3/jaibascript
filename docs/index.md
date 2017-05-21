@@ -12,7 +12,7 @@ Recrear JavaScript en español. Darle a los usuarios hispanoparlantes la posibil
 - NodeJS v6+
 - Babel v6+
 
-## Instalacion
+## Instalación
 
 - `npm install --save-dev jaibascript`
 - agregar a los plugins de babel
@@ -20,7 +20,7 @@ Recrear JavaScript en español. Darle a los usuarios hispanoparlantes la posibil
 
 ## Ejemplos
 
-### Traduce Objetos Estandard y sus metodos
+### Traduce Objetos Estandard y sus métodos
 
 ```js
 Numero.esEntero(100);
@@ -32,7 +32,7 @@ Se traduce a
 Number.isInteger(100);
 ```
 
-### Se puede combinar ingles y español
+### Se puede combinar inglés y español
 
 > Ideal para implementarse poco a poco en un proyecto hecho con JavaScript. Se puede incorporar en pequeñas secciones para ir lo probando.
 
@@ -41,7 +41,7 @@ Number.isInteger(100);
 Number.esEntero(num);
 ```
 
-se traduce a
+Se traduce a
 
 ```js
 Number.isInteger(num);
@@ -73,7 +73,7 @@ Lista | Array
 Numero | Number
 Texto | String
 
-[Documentación sobre Objetos Estandard](objetos-estandard.md)
+[Lisa de traducciones de los Objetos Estandard](objetos-estandard.md)
 
 
 ## Referencias

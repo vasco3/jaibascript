@@ -1,4 +1,7 @@
-> JaibaScript hace posible poder programar en español. 
+> JaibaScript compilando a Javascript en tiempo real
+
+![JaibaScript](./jaibascript.gif)
+
 
 ## Objetivo
 
@@ -16,10 +19,6 @@ Recrear JavaScript en español. Darle a los usuarios hispanoparlantes la posibil
 
 
 ## Ejemplos
-
-> JaibaScript compilando a Javascript en tiempo real
-
-![JaibaScript](./jaibascript.gif)
 
 ### Traduce Objetos Estandard y sus metodos
 

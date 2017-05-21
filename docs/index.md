@@ -36,9 +36,9 @@ Number.isInteger(100);
 ### Se puede combinar ingles y español
 
 > Ideal para implementarse poco a poco en un proyecto hecho con JavaScript. Se puede incorporar en pequeñas secciones para ir lo probando.
+
 ```js
 // Number en ingles, esEntero() en español
-
 Number.esEntero(num);
 ```
 

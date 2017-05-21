@@ -51,6 +51,7 @@ Texto | String
 - [Developer Mozilla](https://developer.mozilla.org)
 - [AST Explorer](http://astexplorer.net/)
 - [Babel Plugin Handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-babel-types)
+- [Babel plugin playground](http://www.mattzeunert.com/babel-plugin-playground/)
 
 ## Contribuidores
 

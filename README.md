@@ -47,7 +47,6 @@ Texto | String
 
 - Jorge C. Cuadra F.
 
-![JC](./jorge-cuadra.png)
 
 
 ## Licencia

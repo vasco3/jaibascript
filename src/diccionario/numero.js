@@ -23,5 +23,5 @@ module.exports = {
   esAntiNumero: 'isNaN',
   esEntero: 'isInteger',
   esEnteroSeguro: 'isSafeInteger',
-  esFinite: 'isFinite',
+  esFinito: 'isFinite',
 };

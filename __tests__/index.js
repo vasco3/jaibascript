@@ -42,6 +42,11 @@ pluginTester({
       output: 'String.prototype.split()',
     },
     {
+      title: 'JSON parse',
+      code: 'JSON.convertir()',
+      output: 'JSON.parse()',
+    },
+    {
       title: 'funcion',
       code: 'funcion f()',
       output: 'function f()',

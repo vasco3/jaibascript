@@ -74,6 +74,13 @@ exports.PropiedadesMetodosDeObjetosEstandard = {
   aTiempoEnTexto: 'toTimeString',
   aTextoUTC: 'toUTCString',
 
+  /**
+   * JSON
+   */
+  // metodos
+  convertir: 'parse',
+  // aTexto: 'stringify',
+
   /*********
    * Lista
    * original: Array

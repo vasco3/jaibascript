@@ -1,3 +1,4 @@
+const booleano = require('./booleano');
 const fecha = require('./fecha');
 const json = require('./json');
 const lista = require('./lista');
@@ -5,6 +6,7 @@ const numero = require('./numero');
 const texto = require('./texto');
 
 exports.ObjetosEstandard = {
+  Booleano: 'Boolean',
   Fecha: 'Date',
   Lista: 'Array',
   Numero: 'Number',
@@ -17,7 +19,6 @@ exports.ObjetosEstandard = {
  * Metodos y propiedades que coinciden en varios Standard Objects
  **********/
 const comunes = {
-
   // propiedades
   longitud: 'length',
   prototipo: 'prototype',
@@ -30,5 +31,5 @@ const comunes = {
   ultimoIndiceDe: 'lastIndexOf',
 };
 
-exports.PropiedadesMetodosDeObjetosEstandard = Object.assign({}, comunes, fecha, json, lista, numero, texto);
+exports.PropiedadesMetodosDeObjetosEstandard = Object.assign({}, booleano, comunes, fecha, json, lista, numero, texto);
 

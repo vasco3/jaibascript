@@ -7,6 +7,11 @@ pluginTester({
   fixtures: path.join(__dirname, '__fixtures__'),
   tests: [
     {
+      title: 'Bool',
+      code: 'Booleano()',
+      output: 'Boolean()',
+    },
+    {
       title: 'Fecha',
       code: 'Fecha.prototipo.definirFecha()',
       output: 'Date.prototype.setDate()',

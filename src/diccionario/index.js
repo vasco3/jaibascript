@@ -5,6 +5,10 @@ const lista = require('./lista');
 const numero = require('./numero');
 const texto = require('./texto');
 
+exports.propiedadesGlobales = {
+  AntiNumero: 'NaN',
+};
+
 exports.ObjetosEstandard = {
   Booleano: 'Boolean',
   Fecha: 'Date',

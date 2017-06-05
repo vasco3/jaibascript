@@ -4,7 +4,7 @@
 
 ## Comunidad
 
-[JaibaScript en Facebook](https://facebook.com/groups/869262879888944)
+[JaibaScript en Facebook](facebook.com/groups/jaibascript)
 
 ## Objetivo
 

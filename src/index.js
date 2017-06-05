@@ -1,6 +1,7 @@
 
 const {
   ObjetosEstandard,
+  funcionesGlobales,
   propiedadesGlobales,
   PropiedadesMetodosDeObjetosEstandard
 } = require('./diccionario');
@@ -10,7 +11,8 @@ module.exports = function jaibascript({types: t}) {
     name: 'jaibascript',
     visitor: {
       CallExpression(path) {
-        const callee = ObjetosEstandard[path.node.callee.name];
+        const callee = ObjetosEstandard[path.node.callee.name] ||
+          funcionesGlobales[path.node.callee.name];
 
         if (callee) {
           path.node.callee = t.identifier(callee);

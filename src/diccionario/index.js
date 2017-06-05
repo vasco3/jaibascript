@@ -5,8 +5,23 @@ const lista = require('./lista');
 const numero = require('./numero');
 const texto = require('./texto');
 
+exports.funcionesGlobales = {
+  codificarComponenteURI: 'encodeURIComponent',
+  codificarURI: 'encodeURI',
+  decodificarComponenteURI: 'decodeURIComponent',
+  decodificarURI: 'decodeURI',
+  deTextoAEntero: 'parseInt',
+  deTextoAFraccionario: 'parseFloat',
+  esAntiNumero: 'isNaN',
+  esFinito: 'isFinite',
+  evaluar: 'eval',
+};
+
 exports.propiedadesGlobales = {
   AntiNumero: 'NaN',
+  indefinido: 'undefined',
+  Infinito: 'Infinity',
+  nulo: 'null',
 };
 
 exports.ObjetosEstandard = {

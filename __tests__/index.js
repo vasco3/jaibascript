@@ -32,6 +32,11 @@ pluginTester({
       output: 'lista.map()',
     },
     {
+      title: 'AntiNumero',
+      code: 'AntiNumero',
+      output: 'NaN',
+    },
+    {
       title: 'reducir',
       code: 'ciudades.reducir()',
       output: 'ciudades.reduce()',

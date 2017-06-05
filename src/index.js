@@ -1,6 +1,7 @@
 
 const {
   ObjetosEstandard,
+  propiedadesGlobales,
   PropiedadesMetodosDeObjetosEstandard
 } = require('./diccionario');
 
@@ -13,6 +14,13 @@ module.exports = function jaibascript({types: t}) {
 
         if (callee) {
           path.node.callee = t.identifier(callee);
+        }
+      },
+      ExpressionStatement(path) {
+        const expressionName = propiedadesGlobales[path.node.expression.name];
+
+        if (expressionName) {
+          path.node.expression = t.identifier(expressionName);
         }
       },
       MemberExpression(path) {

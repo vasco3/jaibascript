@@ -5,7 +5,7 @@ const lista = require('./lista');
 const numero = require('./numero');
 const texto = require('./texto');
 
-exports.funcionesGlobales = {
+exports.globalFunctions = {
   codificarComponenteURI: 'encodeURIComponent',
   codificarURI: 'encodeURI',
   decodificarComponenteURI: 'decodeURIComponent',
@@ -17,15 +17,29 @@ exports.funcionesGlobales = {
   evaluar: 'eval',
 };
 
-exports.propiedadesGlobales = {
+exports.globalProperties = {
   AntiNumero: 'NaN',
   indefinido: 'undefined',
   Infinito: 'Infinity',
   nulo: 'null',
 };
 
-exports.ObjetosEstandard = {
+exports.fundamentalObjects = {
   Booleano: 'Boolean',
+  Error: 'Error',
+  ErrorEvaluacion: 'EvalError',
+  Funcion: 'Function',
+  ErrorInterno: 'InternalError',
+  Objecto: 'Object',
+  ErrorDeRango: 'RangeError',
+  ErrorDeReferencia: 'ReferenceError',
+  Simbolo: 'Symbol',
+  ErrorDeSintaxis: 'SyntaxError',
+  ErrorDeTipo: 'TypeError',
+  ErrorURI: 'URIError'
+};
+
+exports.ObjetosEstandard = {
   Fecha: 'Date',
   Lista: 'Array',
   Numero: 'Number',

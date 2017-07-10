@@ -1,9 +1,24 @@
-const booleano = require('./booleano');
-const fecha = require('./fecha');
+const booleano = require('./boolean');
+const fecha = require('./date');
 const json = require('./json');
-const lista = require('./lista');
-const numero = require('./numero');
-const texto = require('./texto');
+const lista = require('./array');
+const numero = require('./number');
+const texto = require('./string');
+
+exports.fundamentalObjects = {
+  Booleano: 'Boolean',
+  Error: 'Error',
+  ErrorEvaluacion: 'EvalError',
+  Funcion: 'Function',
+  ErrorInterno: 'InternalError',
+  Objecto: 'Object',
+  ErrorDeRango: 'RangeError',
+  ErrorDeReferencia: 'ReferenceError',
+  Simbolo: 'Symbol',
+  ErrorDeSintaxis: 'SyntaxError',
+  ErrorDeTipo: 'TypeError',
+  ErrorURI: 'URIError'
+};
 
 exports.globalFunctions = {
   codificarComponenteURI: 'encodeURIComponent',
@@ -24,25 +39,34 @@ exports.globalProperties = {
   nulo: 'null',
 };
 
-exports.fundamentalObjects = {
-  Booleano: 'Boolean',
-  Error: 'Error',
-  ErrorEvaluacion: 'EvalError',
-  Funcion: 'Function',
-  ErrorInterno: 'InternalError',
-  Objecto: 'Object',
-  ErrorDeRango: 'RangeError',
-  ErrorDeReferencia: 'ReferenceError',
-  Simbolo: 'Symbol',
-  ErrorDeSintaxis: 'SyntaxError',
-  ErrorDeTipo: 'TypeError',
-  ErrorURI: 'URIError'
+exports.keyedCollections = {
+  Mapa: 'Map',
+  MapaDebil: 'WeakMap',
+  Serie: 'Set',
+  SerieDebil: 'WeakSet',
 };
 
-exports.ObjetosEstandard = {
-  Fecha: 'Date',
+exports.indexedCollections = {
+  // Float32Array: 'Float32Array',
+  // Float64Array: 'Float64Array',
+  // Int16Array: 'Int16Array',
+  // Int32Array: 'Int32Array',
+  // Int8Array: 'Int8Array',
   Lista: 'Array',
+  // Uint16Array: 'Uint16Array',
+  // Uint32Array: 'Uint32Array',
+  // Uint8Array: 'Uint8Array',
+  // Uint8ClampedArray: 'Uint8ClampedArray',
+};
+
+exports.numbersAndDates = {
+  Fecha: 'Date',
+  Mate: 'Math',
   Numero: 'Number',
+};
+
+exports.textProcessing = {
+  ExpresionRegular: 'RegExp',
   Texto: 'String',
 };
 

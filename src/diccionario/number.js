@@ -1,6 +1,5 @@
 /********
- * Numero
- * original: Number
+ * Number
  ********/
 
 module.exports = {

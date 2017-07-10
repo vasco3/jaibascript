@@ -1,7 +1,5 @@
-# Contribuir al proyecto
+# Contribute to the project
 
-Si quieres contribuir al proyecto puedes crear un GitHub Issue para avisar en que vas a trabajar. 
-Asi podemos evitar el duplicar el trabajo.
+Please create a GitHub issue before opening a Pull Request to the master branch.
 
-Una vez definida la tarea que quieres resolver, puedes crear un Pull Request a `master`.
 

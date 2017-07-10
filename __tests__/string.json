@@ -1,0 +1,13 @@
+
+[
+  {
+    "title": "Texto",
+    "code": "Texto.prototipo.separar()",
+    "output": "String.prototype.split()"
+  },
+  {
+    "title": "Texto",
+    "code": "Texto.prototipo.juntar()",
+    "output": "String.prototype.join()"
+  }
+]

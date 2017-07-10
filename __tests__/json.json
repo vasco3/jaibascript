@@ -1,0 +1,13 @@
+
+[
+  {
+    "title": "JSON 1",
+    "code": "JSON.convertir(obj)",
+    "output": "JSON.parse(obj)"
+  },
+  {
+    "title": "JSON 2",
+    "code": "JSON.aTexto(textoA)",
+    "output": "JSON.stringify(textoA)"
+  }
+]

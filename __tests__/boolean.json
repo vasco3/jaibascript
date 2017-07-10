@@ -1,0 +1,18 @@
+
+[
+  {
+    "title": "Bool",
+    "code": "Booleano()",
+    "output": "Boolean()"
+  },
+  {
+    "title": "Bool 1",
+    "code": "var esRentable = true",
+    "output": "var esRentable = true"
+  },
+  {
+    "title": "Bool 2",
+    "code": "var esRentable = false",
+    "output": "var esRentable = false"
+  }
+]

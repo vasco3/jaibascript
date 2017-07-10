@@ -1,0 +1,13 @@
+
+[
+  {
+    "title": "Fecha",
+    "code": "Fecha.prototipo.definirFecha()",
+    "output": "Date.prototype.setDate()"
+  },
+  {
+    "title": "new Fecha",
+    "code": "new Fecha()",
+    "output": "new Date()"
+  }
+]

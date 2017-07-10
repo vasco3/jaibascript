@@ -1,0 +1,13 @@
+
+[
+  {
+    "title": "Numero 1",
+    "code": "Numero.prototipo.esEntero()",
+    "output": "Number.prototype.isInteger()"
+  },
+  {
+    "title": "Numero 2",
+    "code": "num.esEntero()",
+    "output": "num.isInteger()"
+  }
+]

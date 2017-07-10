@@ -1,0 +1,48 @@
+
+[
+  {
+    "title": "Array 1",
+    "code": "Lista.prototipo.mapear()",
+    "output": "Array.prototype.map()"
+  },
+  {
+    "title": "Array 2",
+    "code": "var ciudadesTotal = ciudades.reducir((total, este) => total + este, 0)",
+    "output": "var ciudadesTotal = ciudades.reduce((total, este) => total + este, 0)"
+  },
+  {
+    "title": "Array 3",
+    "code": "var ventasMayores = ventas.filtrar(venta => venta > 10)",
+    "output": "var ventasMayores = ventas.filter(venta => venta > 10)"
+  },
+  {
+    "title": "Array 4",
+    "code": "const esRentable = ventas.algunos(venta => venta > 1)",
+    "output": "const esRentable = ventas.some(venta => venta > 1)"
+  },
+  {
+    "title": "Array 5",
+    "code": "ventas.cadaUno(venta => venta > 100)",
+    "output": "ventas.every(venta => venta > 100)"
+  },
+  {
+    "title": "Array 6",
+    "code": "lista.mapear((articulo, indice) => articulo + indice)",
+    "output": "lista.map((articulo, indice) => articulo + indice)"
+  },
+  {
+    "title": "Array 7",
+    "code": "lista.ordenar()",
+    "output": "lista.sort()"
+  },
+  {
+    "title": "Array 8",
+    "code": "lista.encontrar(numero => numero > 3)",
+    "output": "lista.find(numero => numero > 3)"
+  },
+  {
+    "title": "Array 9",
+    "code": "var largo = lista.longitud",
+    "output": "var largo = lista.length"
+  }
+]

@@ -11,9 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/vasco3/JaibaScript.git"
   },
-  "keywords": [
-    "javascript"
-  ],
+  "keywords": ["javascript"],
   "author": "Jorge C. Cuadra F.",
   "license": "MIT",
   "bugs": {

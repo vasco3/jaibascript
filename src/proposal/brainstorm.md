@@ -1,21 +1,20 @@
 # Proposals
 
-JavaScript should use symbols to replace reserved keywords. 
-This would make the language more universal. 
-By using symbols in partial scripts like mathematics avoids the 
+JavaScript should use symbols to replace reserved keywords.
+This would make the language more universal.
+By using symbols in partial scripts like mathematics avoids the
 restrictions of a fully scripted language like English.
-I propose replacing reserved keywords for symbols, and translate 
-the API into different language like Spreadsheet apps do. 
-This would make JavaScript a truly 
+I propose replacing reserved keywords for symbols, and translate
+the API into different language like Spreadsheet apps do.
+This would make JavaScript a truly
 universal programming language.
 
-To avoid breaking the web, we can preserve reserved keywords 
+To avoid breaking the web, we can preserve reserved keywords
 inspite of adding symbol alternatives.
 
 Being english my second language, I learned some keywords just by
-heart instead of by meaning. Human languages tend to be 
+heart instead of by meaning. Human languages tend to be
 subjective to its historical context.
-
 
 ## Date
 
@@ -46,7 +45,7 @@ var x = undefined;
 // var x = __;
 ```
 
-removing null 
+removing null
 
 ```js
 var y = null;
@@ -57,20 +56,22 @@ var y = null;
 ## boolean
 
 ```js
-var isHere = true;    
+var isHere = true;
 
 // var isHere = 1;
 
-isHere = false;   
+isHere = false;
 
-isHere = !0;   
+isHere = !0;
 ```
 
 ## NaN
 
 ```js
 var x = 'hi';
-if (x === NaN) { x = 9 }
+if (x === NaN) {
+  x = 9;
+}
 ```
 
 ```
@@ -133,7 +134,6 @@ switch (x) {
 }
 ```
 
-
 ```
 x = 1;
 var result = 0;
@@ -150,4 +150,3 @@ var result = 0;
     <>;
 }
 ```
-

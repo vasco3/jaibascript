@@ -1,4 +1,3 @@
-
 /*********
  * Lista
  * original: Array

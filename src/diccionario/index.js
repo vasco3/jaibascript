@@ -27,13 +27,13 @@ exports.globalFunctions = {
   decodificarURI: 'decodeURI',
   deTextoAEntero: 'parseInt',
   deTextoAFraccionario: 'parseFloat',
-  esAntiNumero: 'isNaN',
+  esNeN: 'isNaN',
   esFinito: 'isFinite',
   evaluar: 'eval',
 };
 
 exports.globalProperties = {
-  AntiNumero: 'NaN',
+  NeN: 'NaN',
   indefinido: 'undefined',
   Infinito: 'Infinity',
   nulo: 'null',

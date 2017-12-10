@@ -1,4 +1,3 @@
-
 const {
   fundamentalObjects,
   globalFunctions,
@@ -11,14 +10,15 @@ const {
 
 const ObjetosEstandard = {};
 
-module.exports = function jaibascript({types: t}) {
+module.exports = function jaibascript({ types: t }) {
   return {
     name: 'jaibascript',
     visitor: {
       CallExpression(path) {
         const calleeName = path.node.callee.name;
 
-        const callee = numbersAndDates[calleeName] ||
+        const callee =
+          numbersAndDates[calleeName] ||
           indexedCollections[calleeName] ||
           globalFunctions[calleeName] ||
           fundamentalObjects[calleeName];
@@ -38,13 +38,17 @@ module.exports = function jaibascript({types: t}) {
       MemberExpression(path) {
         const objectName = (path.node.object || {}).name || '';
 
-        const primitiveIdentifier = indexedCollections[objectName] || numbersAndDates[objectName] || textProcessing[objectName];
+        const primitiveIdentifier =
+          indexedCollections[objectName] ||
+          numbersAndDates[objectName] ||
+          textProcessing[objectName];
 
         if (primitiveIdentifier) {
           path.node.object = t.identifier(primitiveIdentifier);
         }
 
-        const property = PropiedadesMetodosDeObjetosEstandard[path.node.property.name];
+        const property =
+          PropiedadesMetodosDeObjetosEstandard[path.node.property.name];
 
         if (property) {
           path.node.property = t.identifier(property);
@@ -57,6 +61,6 @@ module.exports = function jaibascript({types: t}) {
           path.node.callee = t.identifier(callee);
         }
       },
-    }
-  }
+    },
+  };
 };

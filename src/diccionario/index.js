@@ -17,7 +17,7 @@ exports.fundamentalObjects = {
   Simbolo: 'Symbol',
   ErrorDeSintaxis: 'SyntaxError',
   ErrorDeTipo: 'TypeError',
-  ErrorURI: 'URIError'
+  ErrorURI: 'URIError',
 };
 
 exports.globalFunctions = {
@@ -88,5 +88,13 @@ const comunes = {
   ultimoIndiceDe: 'lastIndexOf',
 };
 
-exports.PropiedadesMetodosDeObjetosEstandard = Object.assign({}, booleano, comunes, fecha, json, lista, numero, texto);
-
+exports.PropiedadesMetodosDeObjetosEstandard = Object.assign(
+  {},
+  booleano,
+  comunes,
+  fecha,
+  json,
+  lista,
+  numero,
+  texto,
+);

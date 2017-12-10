@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Array 1",
@@ -7,8 +6,10 @@
   },
   {
     "title": "Array 2",
-    "code": "var ciudadesTotal = ciudades.reducir((total, este) => total + este, 0)",
-    "output": "var ciudadesTotal = ciudades.reduce((total, este) => total + este, 0)"
+    "code":
+      "var ciudadesTotal = ciudades.reducir((total, este) => total + este, 0)",
+    "output":
+      "var ciudadesTotal = ciudades.reduce((total, este) => total + este, 0)"
   },
   {
     "title": "Array 3",

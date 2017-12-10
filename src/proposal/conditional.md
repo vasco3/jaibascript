@@ -1,4 +1,3 @@
-
 # Conditional proposal
 
 ## examples
@@ -19,12 +18,11 @@ if (x === 3) {
 
 ### else
 
-
 ```js
 if (x === 3) {
   y = 5;
 } else {
-  y = 10
+  y = 10;
 }
 ```
 
@@ -57,5 +55,3 @@ if (x === 3) {
   y = 10;
 }
 ```
-
-

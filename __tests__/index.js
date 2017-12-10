@@ -12,7 +12,6 @@ const stringTests = require('./string');
 
 pluginTester({
   plugin,
-  fixtures: path.join(__dirname, '__fixtures__'),
   tests: [
     ...arrayTests,
     ...booleanTests,
@@ -56,13 +55,13 @@ pluginTester({
       output: 'parseInt()',
     },
     {
-      title: 'AntiNumero',
-      code: 'AntiNumero',
+      title: 'NeN',
+      code: 'NeN',
       output: 'NaN',
     },
     {
       title: 'isNaN',
-      code: 'esAntiNumero()',
+      code: 'esNeN()',
       output: 'isNaN()',
     },
     {

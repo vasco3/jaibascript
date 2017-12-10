@@ -117,7 +117,7 @@ valores | values
 
 Español | Inglés
 -- | --
-AntiNumero | NaN
+NeN | NaN
 ENTERO_SEGURO_MAXIMO | MAX_SAFE_INTEGER
 ENTERO_SEGURO_MINIMO | MIN_SAFE_INTEGER
 EPSILON | EPSILON
@@ -135,7 +135,7 @@ Español | Inglés
   conPrecision: 'toPrecision',
   deTextoAEntero: 'parseInt',
   deTextoAFraccionario: 'parseFloat',
-  esAntiNumero: 'isNaN',
+  esNeN: 'isNaN',
   esEntero: 'isInteger',
   esEnteroSeguro: 'isSafeInteger',
   esFinite: 'isFinite',

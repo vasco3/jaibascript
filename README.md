@@ -4,6 +4,9 @@
 
 <a href="https://www.buymeacoffee.com/turbo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+<a href="https://twitter.com/Cuadraman?ref_src=twsrc%5Etfw"  target="_blank" style="position: relative; height: 20px; box-sizing: border-box; padding: 1px 8px 1px 6px; background-color: #1b95e0; color: #fff; border-radius: 3px; font-weight: 500; cursor: pointer; " >Follow @Cuadraman</a>
+
+
 ## Overview
 
 JaibaScript is a babel plugin that allows developers to write

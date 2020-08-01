@@ -4,7 +4,7 @@
 
 ## Comunidad
 
-[JaibaScript en Facebook](facebook.com/groups/jaibascript)
+[Follow me in Twitter @Cuadraman](twitter.com/Cuadraman)
 
 ## Objetivo
 
